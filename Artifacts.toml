@@ -1,0 +1,94 @@
+[[flashrom]]
+arch = "aarch64"
+git-tree-sha1 = "1b69e31f73e638ef79e5355eedaa4e3eb6c601ab"
+libc = "glibc"
+os = "linux"
+
+    [[flashrom.download]]
+    sha256 = "a848a0beba82f83ef859f29074b0754960cc9222f905d11fd1eba0f989d58f3f"
+    url = "https://github.com/JuliaBinaryWrappers/flashrom_jll.jl/releases/download/flashrom-v1.2.900+0/flashrom.v1.2.900.aarch64-linux-gnu.tar.gz"
+[[flashrom]]
+arch = "aarch64"
+git-tree-sha1 = "a52e7b05c871d4c9178aea02f7fc2ea301bf1586"
+libc = "musl"
+os = "linux"
+
+    [[flashrom.download]]
+    sha256 = "b794ea7e6cf148157c442dce233d512b778aa00bdd933919c2f4bb8136f33b7b"
+    url = "https://github.com/JuliaBinaryWrappers/flashrom_jll.jl/releases/download/flashrom-v1.2.900+0/flashrom.v1.2.900.aarch64-linux-musl.tar.gz"
+[[flashrom]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "fb82c20baec1d50ded196250f5b34510abd20d1e"
+libc = "glibc"
+os = "linux"
+
+    [[flashrom.download]]
+    sha256 = "0a375ac06e17448d856301024a5d9fae5fd3bef4524c3c29203683f81a78c748"
+    url = "https://github.com/JuliaBinaryWrappers/flashrom_jll.jl/releases/download/flashrom-v1.2.900+0/flashrom.v1.2.900.armv6l-linux-gnueabihf.tar.gz"
+[[flashrom]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "ef4ac11253eaf5a7e380c7f360da2e7cabc853f6"
+libc = "musl"
+os = "linux"
+
+    [[flashrom.download]]
+    sha256 = "bbbe87a0a7b00d37af258ddd1107b9625c4de53af0dd44e82a5f412c47d8ae3b"
+    url = "https://github.com/JuliaBinaryWrappers/flashrom_jll.jl/releases/download/flashrom-v1.2.900+0/flashrom.v1.2.900.armv6l-linux-musleabihf.tar.gz"
+[[flashrom]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "7b827f9aa8fc17675cfae7291690879243377959"
+libc = "glibc"
+os = "linux"
+
+    [[flashrom.download]]
+    sha256 = "254f1348c6b4e15871f29fee85ea5af90c4005cb31ab67c49eab4e6722bdaa24"
+    url = "https://github.com/JuliaBinaryWrappers/flashrom_jll.jl/releases/download/flashrom-v1.2.900+0/flashrom.v1.2.900.armv7l-linux-gnueabihf.tar.gz"
+[[flashrom]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "2953ceedb9a29f9243a6eb8b9a010c7c545cc9c1"
+libc = "musl"
+os = "linux"
+
+    [[flashrom.download]]
+    sha256 = "579b2234d0ae86064c0f4668824132fd7cc15493edd3b638afdfe172f15bfadd"
+    url = "https://github.com/JuliaBinaryWrappers/flashrom_jll.jl/releases/download/flashrom-v1.2.900+0/flashrom.v1.2.900.armv7l-linux-musleabihf.tar.gz"
+[[flashrom]]
+arch = "i686"
+git-tree-sha1 = "5bd527d66253b12293a49aec341b3233ea801d8b"
+libc = "glibc"
+os = "linux"
+
+    [[flashrom.download]]
+    sha256 = "bc82eaab0eadbe82d6bc5d1a8f6b9e4480ac9a5657fc3c80588c9726aee31c5b"
+    url = "https://github.com/JuliaBinaryWrappers/flashrom_jll.jl/releases/download/flashrom-v1.2.900+0/flashrom.v1.2.900.i686-linux-gnu.tar.gz"
+[[flashrom]]
+arch = "i686"
+git-tree-sha1 = "bb43f9d4b6aae8351a888ae75fe6c706a83d6ac0"
+libc = "musl"
+os = "linux"
+
+    [[flashrom.download]]
+    sha256 = "05bd91f2af3b549496d3a26bd9af51ceb7117671435dfbeb7a472fbaf2b97d0d"
+    url = "https://github.com/JuliaBinaryWrappers/flashrom_jll.jl/releases/download/flashrom-v1.2.900+0/flashrom.v1.2.900.i686-linux-musl.tar.gz"
+[[flashrom]]
+arch = "x86_64"
+git-tree-sha1 = "2a83e1c8a637d63fb711a186f9b4c1d97447cd1a"
+libc = "glibc"
+os = "linux"
+
+    [[flashrom.download]]
+    sha256 = "ea340d0669e7d9108b1b95839aa5d449dad02fa9166048139358be32953c1ac2"
+    url = "https://github.com/JuliaBinaryWrappers/flashrom_jll.jl/releases/download/flashrom-v1.2.900+0/flashrom.v1.2.900.x86_64-linux-gnu.tar.gz"
+[[flashrom]]
+arch = "x86_64"
+git-tree-sha1 = "32a6b15036c427c2ff7666270ae182d8e71565d0"
+libc = "musl"
+os = "linux"
+
+    [[flashrom.download]]
+    sha256 = "0e7811f181c205f8625dfd970505b800f8cf8dbba247a212a27f2dd6920b9d6e"
+    url = "https://github.com/JuliaBinaryWrappers/flashrom_jll.jl/releases/download/flashrom-v1.2.900+0/flashrom.v1.2.900.x86_64-linux-musl.tar.gz"
